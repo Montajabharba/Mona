@@ -1,0 +1,2296 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>نوطة الرياضيات - الصفحة الأولى</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <style>
+    @page {
+      size: A4;
+      margin: 0.5cm;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      font-size: 9pt;
+      line-height: 1.3;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .page-content {
+      width: 21cm;
+      max-height: 29cm;
+      padding: 0.5cm;
+      margin: 10px auto;
+      background-color: #fff;
+      border: 3px double #000;
+      box-sizing: border-box;
+      position: relative;
+      page-break-inside: avoid;
+    }
+
+    .columns {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .right-side, .left-side {
+      flex: 1;
+      padding: 0 5px;
+    }
+
+    .right-side {
+      padding-left: 10px;
+      border-left: 1px dashed #ccc;
+      direction: rtl;
+      text-align: right;
+    }
+
+    .header-box {
+      border: 2px dashed #6c757d;
+      padding: 3px 8px;
+      margin-bottom: 8px;
+      display: inline-block;
+      font-size: 10pt;
+    }
+
+    .concept {
+      border-right: 3px solid #0056b3;
+      padding: 2px 8px;
+      margin: 4px 0;
+      background-color: #f0f8ff;
+    }
+
+    .concept h3 {
+      font-size: 10pt;
+      color: #0056b3;
+      margin: 4px 0;
+    }
+
+    .concept ul, .concept p {
+      margin: 3px 0;
+      padding-right: 0;
+    }
+
+    .math-code {
+      font-family: 'Roboto', monospace, sans-serif !important;
+      direction: ltr;
+      font-size: 90%;
+    }
+
+    .note {
+      background-color: #ffe0b2;
+      border-right: 4px solid #ff9800;
+      padding: 4px;
+      margin-top: 6px;
+    }
+
+    .dashed-line-area {
+      border: 1px dashed #6c757d;
+      min-height: 100px;
+      margin: 6px 0;
+      padding: 4px;
+    }
+
+    .page-number {
+      position: absolute;
+      bottom: 5mm;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Roboto', sans-serif;
+      font-size: 8pt;
+    }
+
+    .right-side h2 {
+      border-bottom: 2px solid #000;
+      display: inline-block;
+      padding-bottom: 3px;
+      margin-bottom: 8px;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-content">
+    <div class="page-number">(1)</div>
+
+    <div class="columns">
+      <!-- العمود الأيسر -->
+      <div class="left-side">
+        <h2 style="text-align: center;">تذكرة بالعمليات الحسابية الأساسية:</h2>
+
+        <div class="concept">
+          <h3>❶ الجمع (الطرح):</h3>
+          <ul>
+            <li>إذا كان للعددين نفس الإشارة: نضع الإشارة نفسها ونجمع.</li>
+            <li>إذا كان العددان مختلفين بالإشارة: نضع إشارة العدد الأكبر ونطرح.</li>
+            <li>لجمع أو طرح الكسور يجب توحيد المقامات أولاً.</li>
+          </ul>
+        </div>
+
+        <div class="concept">
+          <h3>❷ الضرب (القسمة):</h3>
+          <ul>
+            <li>إذا كان للعددين نفس الإشارة فالناتج موجب (+).</li>
+            <li>إذا كان العددان مختلفين بالإشارة فالناتج سالب (-).</li>
+          </ul>
+        </div>
+
+        <div class="dashed-line-area">
+          <p>أضرب أو قسّم الكسور لا تحتاج لتوحيد المقامات:</p>
+          <div class="math-code">
+            $$ + \times + = + $$
+            $$ - \times - = + $$
+            $$ + \times - = - $$
+            $$ - \times + = - $$
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 10px;">
+          <p style="font-size: 8pt;">[صورة توضيحية لرمز رياضي]</p>
+        </div>
+      </div>
+
+      <!-- العمود الأيمن -->
+      <div class="right-side">
+        <div class="header-box">الوحدة الأولى: (أعداد وكسور)</div>
+        <p style="text-align: center; font-weight: bold;">طريقة الأعداد:</p>
+
+        <div class="concept">
+          <h3>العدد الطبيعي:</h3>
+          <p>هو عدد موجب لا يحتوي على جزء عشري.</p>
+          <p class="math-code">$$ N = \{0, 1, 2, 3, 4, ...\} $$</p>
+        </div>
+
+        <div class="concept">
+          <h3>العدد الصحيح:</h3>
+          <p>هو عدد موجب أو سالب لا يحتوي على جزء عشري.</p>
+          <p class="math-code">$$ Z = \{..., -3, -2, -1, 0, 1, 2, 3, ...\} $$</p>
+          <p>أمثلة: $$ \frac{15}{3}, \frac{27}{9}, \frac{48}{6} $$</p>
+        </div>
+
+        <div class="concept">
+          <h3>العدد العشري:</h3>
+          <p>هو عدد يُكتب على شكل كسر مقامه 10 أو 100 أو 1000...</p>
+          <p class="math-code">$$ \frac{a}{10^n} $$</p>
+          <p>حيث \( a \) عدد صحيح و \( n \) عدد طبيعي</p>
+          <p>أمثلة: $$ \frac{5}{10^2}, \frac{-2}{100}, \frac{6}{1000} $$</p>
+          <p>صيغة علمية: $$ a \times 10^x $$ مثل: $$ 3.5, 6.4, 2.5, 4.5 $$</p>
+        </div>
+
+        <div class="note">
+          <strong>ملاحظة (1):</strong>
+          <p class="math-code">$$ 10^{-1}, 10^{-2}, 10^{-3}, 10^{-4} $$</p>
+        </div>
+
+        <div class="note">
+          <strong>ملاحظة (2):</strong>
+          <p class="math-code">$$ \frac{1}{2}, \frac{3}{5}, \frac{6}{2}, \frac{-11}{9}, \frac{3}{125} $$</p>
+        </div>
+
+        <div class="concept">
+          <h3>العدد غير العشري:</h3>
+          <p>هو عدد دوري غير منتهي.</p>
+          <p class="math-code">$$ \frac{1}{6}, \frac{2}{3}, \frac{1}{7}, \frac{1}{9}, \frac{1}{19} $$</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<div class="page-content">
+  <div class="page-number">(2)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">تبسيط الجذور وتحويلها:</h2>
+
+      <div class="concept">
+        <h3>❶ تبسيط الجذر التربيعي:</h3>
+        <ul>
+          <li>مثال: √50 = √(25 × 2) = √25 × √2 = 5√2</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ قاعدة الجذور:</h3>
+        <p class="math-code">$$ \sqrt{a} \times \sqrt{b} = \sqrt{a \times b} $$</p>
+        <p class="math-code">$$ \sqrt{a} = a^{1/2} $$</p>
+        <p>مثال: $$ \sqrt{5\pi} = \sqrt{5} \times \sqrt{\pi} = (5\pi)^{1/2} $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❸ جدول تبسيط الجذور:</h3>
+        <table style="width:100%; font-size: 8pt; border-collapse: collapse;" border="1">
+          <thead style="background-color: #e0e0e0;">
+            <tr>
+              <th>العدد</th>
+              <th>التحليل</th>
+              <th>الجذر</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>√50</td><td>25 × 2</td><td>5√2</td></tr>
+            <tr><td>√72</td><td>36 × 2</td><td>6√2</td></tr>
+            <tr><td>√18</td><td>9 × 2</td><td>3√2</td></tr>
+            <tr><td>√12</td><td>4 × 3</td><td>2√3</td></tr>
+            <tr><td>√27</td><td>9 × 3</td><td>3√3</td></tr>
+            <tr><td>√48</td><td>16 × 3</td><td>4√3</td></tr>
+            <tr><td>√20</td><td>4 × 5</td><td>2√5</td></tr>
+            <tr><td>√45</td><td>9 × 5</td><td>3√5</td></tr>
+            <tr><td>√75</td><td>25 × 3</td><td>5√3</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة الثانية: القاسم المشترك الأكبر</div>
+      <p style="text-align: center; font-weight: bold;">طريقة إيجاد GCD:</p>
+
+      <div class="concept">
+        <h3>❶ تعريف:</h3>
+        <p>GCD(a, b) هو أكبر عدد يقسم كلا من a و b بدون باقي.</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ مثال مباشر:</h3>
+        <p>إذا كان a يقسم b فإن: $$ GCD(a, b) = a $$</p>
+        <p>مثال: $$ GCD(36, 12) = 12 $$ لأن 12 يقسم 36</p>
+      </div>
+
+      <div class="concept">
+        <h3>❸ مثال باستخدام باقي القسمة:</h3>
+        <p>إذا لم يكن a يقسم b فإن: $$ GCD(a, b) = GCD(b, a \mod b) $$</p>
+        <p>مثال: $$ GCD(10, 5) = GCD(5, 10 \mod 5) = GCD(5, 0) = 5 $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❹ خطوات إيجاد GCD:</h3>
+        <ul>
+          <li>نكتب عوامل كل عدد:</li>
+          <p class="math-code">$$ 36 = 2 \times 2 \times 3 \times 3 $$</p>
+          <p class="math-code">$$ 24 = 2 \times 2 \times 2 \times 3 $$</p>
+          <li>نحدد العوامل المشتركة: 2, 2, 3</li>
+          <li>نضرب العوامل المشتركة: $$ GCD(36, 24) = 2 \times 2 \times 3 = 12 $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❺ جدول العوامل المشتركة:</h3>
+        <table style="width:100%; font-size: 8pt; border-collapse: collapse;" border="1">
+          <thead style="background-color: #e0e0e0;">
+            <tr>
+              <th>العدد</th>
+              <th>العوامل الأولية</th>
+              <th>العوامل المشتركة</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>36</td><td>2 × 2 × 3 × 3</td><td>2 × 2 × 3</td></tr>
+            <tr><td>24</td><td>2 × 2 × 2 × 3</td><td>2 × 2 × 3</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>جد القاسم المشترك الأكبر للعددين: $$ GCD(693, 154) $$</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(3)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">الدرس الثاني عشر: الجذر التربيعي</h2>
+
+      <div class="concept">
+        <h3>❶ تعريف الجذر التربيعي:</h3>
+        <p>إذا كان مربع العدد \( a \) يساوي \( b \)، فإن: $$ \sqrt{b} = a $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ جذور عددية مهمة:</h3>
+        <ul style="columns: 2; font-size: 8pt;">
+          <li>√1 = 1</li><li>√4 = 2</li><li>√9 = 3</li><li>√16 = 4</li><li>√25 = 5</li>
+          <li>√36 = 6</li><li>√49 = 7</li><li>√64 = 8</li><li>√81 = 9</li><li>√100 = 10</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❸ جذور غير نسبية:</h3>
+        <p>√2, √3, √5, √6, √7, √8, √10</p>
+        <p>كلها أعداد غير نسبية لا يمكن كتابتها على شكل كسر بسيط.</p>
+      </div>
+
+      <div class="concept">
+        <h3>❹ تبسيط الجذر التربيعي:</h3>
+        <p>إذا كان: $$ \sqrt{a} = \sqrt{b \times c} $$ و \( b \) مربع كامل، فإن:</p>
+        <p class="math-code">$$ \sqrt{a} = \sqrt{b} \times \sqrt{c} = d\sqrt{c} $$</p>
+        <p>مثال: $$ \sqrt{75} = \sqrt{25 \times 3} = \sqrt{25} \times \sqrt{3} = 5\sqrt{3} $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❺ قواعد العمليات على الجذور:</h3>
+        <ul>
+          <li>$$ \sqrt{a} \times \sqrt{b} = \sqrt{a \times b} $$ مثال: $$ \sqrt{2} \times \sqrt{3} = \sqrt{6} $$</li>
+          <li>$$ \sqrt{a} \div \sqrt{b} = \sqrt{a \div b} $$ مثال: $$ \sqrt{6} \div \sqrt{2} = \sqrt{3} $$</li>
+          <li>$$ \sqrt{a} + \sqrt{b} \neq \sqrt{a + b} $$ مثال: $$ \sqrt{2} + \sqrt{3} \neq \sqrt{5} $$</li>
+          <li>$$ \sqrt{a} - \sqrt{b} \neq \sqrt{a - b} $$ مثال: $$ \sqrt{6} - \sqrt{2} \neq \sqrt{4} $$</li>
+        </ul>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>اختر الجذر التربيعي غير النسبي من القائمة:</p>
+        <p>√2, √3, √5, √6, √7, √8, √10, √11, √12, √13, √14, √15</p>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة الثانية: القاسم المشترك الأكبر</div>
+      <p style="text-align: center; font-weight: bold;">تمارين على GCD:</p>
+
+      <div class="concept">
+        <h3>❶ تمرين محلول:</h3>
+        <p>أوجد: $$ GCD(512, 224) $$</p>
+        <p>نبدأ بتحليل كل عدد إلى عوامله الأولية، ثم نحدد العوامل المشتركة ونضربها.</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ تمارين تدريبية:</h3>
+        <ul>
+          <li>أوجد: $$ GCD(154, 693) $$</li>
+          <li>أوجد: $$ GCD(512, 224) $$</li>
+          <li>أوجد: $$ GCD(36, 12) $$</li>
+          <li>أوجد: $$ GCD(45, 63) $$</li>
+        </ul>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>استخدم طريقة العوامل الأولية أو طريقة باقي القسمة لحل التمارين.</p>
+      </div>
+
+      <div style="text-align: center; margin-top: 10px;">
+        <p style="font-size: 8pt;">[صورة توضيحية للجذر التربيعي أو جدول العوامل]</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(4)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">الدرس الأول من الفصل: تبسيط الجذور</h2>
+
+      <div class="concept">
+        <h3>❶ إعادة كتابة الجذر التربيعي:</h3>
+        <p>نكتب الجذر على شكل كسر:</p>
+        <ul>
+          <li>$$ \sqrt{\frac{3}{5}} = \frac{\sqrt{3}}{\sqrt{5}} $$</li>
+          <li>$$ \sqrt{\frac{5}{3}} = \frac{\sqrt{5}}{\sqrt{3}} $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ ضرب الجذور الكسرية:</h3>
+        <p>مثال:</p>
+        <p class="math-code">$$ \sqrt{\frac{3}{5}} \times \sqrt{\frac{5}{3}} = \sqrt{\frac{15}{15}} = \sqrt{1} = 1 $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❸ تبسيط الجذور المركبة:</h3>
+        <p>مثال:</p>
+        <p class="math-code">$$ A = \sqrt{54} + \sqrt{24} - \sqrt{150} $$</p>
+        <p>نقوم بتحليل كل جذر:</p>
+        <ul>
+          <li>$$ \sqrt{54} = \sqrt{9 \times 6} = 3\sqrt{6} $$</li>
+          <li>$$ \sqrt{24} = \sqrt{4 \times 6} = 2\sqrt{6} $$</li>
+          <li>$$ \sqrt{150} = \sqrt{25 \times 6} = 5\sqrt{6} $$</li>
+        </ul>
+        <p>الناتج النهائي: $$ A = 3\sqrt{6} + 2\sqrt{6} - 5\sqrt{6} = 0 $$</p>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>الجذر التربيعي للعدد 9 هو 3 لأن: $$ 3 \times 3 = 9 $$</p>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة الثالثة: الجذور التربيعية</div>
+      <p style="text-align: center; font-weight: bold;">تبسيط الجذور إلى أبسط صورة:</p>
+
+      <div class="concept">
+        <h3>❶ أمثلة على التبسيط:</h3>
+        <ul style="font-size: 8pt;">
+          <li>$$ \sqrt{18} = \sqrt{9 \times 2} = 3\sqrt{2} $$</li>
+          <li>$$ \sqrt{50} = \sqrt{25 \times 2} = 5\sqrt{2} $$</li>
+          <li>$$ \sqrt{63} = \sqrt{9 \times 7} = 3\sqrt{7} $$</li>
+          <li>$$ \sqrt{20} = \sqrt{4 \times 5} = 2\sqrt{5} $$</li>
+          <li>$$ \sqrt{45} = \sqrt{9 \times 5} = 3\sqrt{5} $$</li>
+          <li>$$ \sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2} $$</li>
+          <li>$$ \sqrt{108} = \sqrt{36 \times 3} = 6\sqrt{3} $$</li>
+          <li>$$ \sqrt{75} = \sqrt{25 \times 3} = 5\sqrt{3} $$</li>
+          <li>$$ \sqrt{48} = \sqrt{16 \times 3} = 4\sqrt{3} $$</li>
+          <li>$$ \sqrt{27} = \sqrt{9 \times 3} = 3\sqrt{3} $$</li>
+          <li>$$ \sqrt{12} = \sqrt{4 \times 3} = 2\sqrt{3} $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ جذور غير قابلة للتبسيط:</h3>
+        <p>الجذور التالية تبقى كما هي:</p>
+        <p class="math-code">$$ \sqrt{3}, \sqrt{7}, \sqrt{5}, \sqrt{2} $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❸ مثال مركب:</h3>
+        <p>$$ A = 3\sqrt{5} + \sqrt{72} - 5\sqrt{63} $$</p>
+        <p>نقوم بالتبسيط:</p>
+        <ul>
+          <li>$$ \sqrt{72} = 6\sqrt{2} $$</li>
+          <li>$$ \sqrt{63} = \sqrt{9 \times 7} = 3\sqrt{7} $$</li>
+          <li>$$ 5\sqrt{63} = 5 \times 3\sqrt{7} = 15\sqrt{7} $$</li>
+        </ul>
+        <p>الناتج النهائي: $$ A = 3\sqrt{5} + 6\sqrt{2} - 15\sqrt{7} $$</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>اكتب كل جذر في أبسط صورة، ثم قم بجمع أو طرح الجذور المتشابهة فقط.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(5)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">الدرس الهندسي: محيط المثلث</h2>
+
+      <div class="concept">
+        <h3>❶ تعريف المحيط:</h3>
+        <p>محيط المثلث هو مجموع أطوال أضلاعه:</p>
+        <p class="math-code">$$ \text{المحيط} = AB + AC + BC $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ أطوال أضلاع المثلث ABC:</h3>
+        <ul>
+          <li>AB = √48</li>
+          <li>AC = √108 − √12</li>
+          <li>BC = √192 ÷ 4</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❸ تبسيط الأطوال:</h3>
+        <ul>
+          <li>$$ \sqrt{48} = \sqrt{16 \times 3} = 4\sqrt{3} $$</li>
+          <li>$$ \sqrt{108} = \sqrt{36 \times 3} = 6\sqrt{3} $$</li>
+          <li>$$ \sqrt{12} = \sqrt{4 \times 3} = 2\sqrt{3} $$</li>
+          <li>$$ \sqrt{192} = \sqrt{64 \times 3} = 8\sqrt{3} $$ ثم $$ BC = \frac{8\sqrt{3}}{4} = 2\sqrt{3} $$</li>
+        </ul>
+        <p>إذن:</p>
+        <p class="math-code">$$ AB = 4\sqrt{3},\quad AC = 6\sqrt{3} - 2\sqrt{3} = 4\sqrt{3},\quad BC = 2\sqrt{3} $$</p>
+        <p>المحيط النهائي: $$ P = 4\sqrt{3} + 4\sqrt{3} + 2\sqrt{3} = 10\sqrt{3} $$</p>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>اختر الإجابة الصحيحة:</p>
+        <ul style="font-size: 8pt;">
+          <li>☐ الضلع × الضلع × الضلع</li>
+          <li>☑ مجموع أطوال أضلاع المثلث</li>
+          <li>☐ حاصل ضرب أطوال أضلاع المثلث</li>
+          <li>☐ لا يمكن إيجاد المحيط</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة الرابعة: خصائص المثلثات</div>
+      <p style="text-align: center; font-weight: bold;">تحليل الزوايا والأنواع الهندسية:</p>
+
+      <div class="concept">
+        <h3>❶ معطيات إضافية:</h3>
+        <ul>
+          <li>المثلث ABC قائم الزاوية في النقطة C</li>
+          <li>الزاوية ARC = 30 درجة</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ إيجاد الزوايا:</h3>
+        <p>بما أن الزاوية ARC = 30° والمثلث قائم في C:</p>
+        <ul>
+          <li>الزاوية عند C = 90°</li>
+          <li>الزاوية عند B = 60° (لأن مجموع زوايا المثلث = 180°)</li>
+        </ul>
+        <p class="math-code">$$ \angle A = 30^\circ,\quad \angle C = 90^\circ,\quad \angle B = 60^\circ $$</p>
+      </div>
+
+      <div class="concept">
+        <h3>❸ نوع المثلث:</h3>
+        <p>المثلث ABC هو مثلث قائم الزاوية ومتساوي الساقين إذا ثبت أن ضلعين متساويان.</p>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>لإثبات أن المثلث ABCD متساوي الساقين، يجب إثبات أن ضلعين متساويان في الطول.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>استخدم قوانين الزوايا والمثلثات القائمة لتحديد نوع المثلث بدقة.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(6)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">الدرس الهندسي: مساحة المستطيل والدائرة</h2>
+
+      <div class="concept">
+        <h3>❶ معطيات الشكل:</h3>
+        <ul>
+          <li>ABCD مستطيل</li>
+          <li>AB = √72</li>
+          <li>نصف قطر الدائرة = 3√2</li>
+          <li>الدائرة تمس منتصف الضلع DC</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ حساب أبعاد المستطيل:</h3>
+        <ul>
+          <li>الطول = √3 + √3 = 6√2</li>
+          <li>العرض = EF = √72 ÷ 3√2</li>
+          <li>تبسيط العرض: $$ \frac{\sqrt{72}}{3\sqrt{2}} = \frac{6\sqrt{2}}{3\sqrt{2}} = 2 $$</li>
+          <li>لكن حسب المعطى: EF = 4√2</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❸ مساحة المستطيل:</h3>
+        <p>نحسبها بضرب الطول × العرض:</p>
+        <p class="math-code">$$ S_1 = 6\sqrt{2} \times 4\sqrt{2} = 6 \times 4 \times (\sqrt{2})^2 = 24 \times 2 = 48 $$</p>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>الطول والعرض تم تبسيطهما باستخدام خصائص الجذور.</p>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة الخامسة: المساحات المركبة</div>
+      <p style="text-align: center; font-weight: bold;">مساحة الدائرة والجزء المظلل:</p>
+
+      <div class="concept">
+        <h3>❶ مساحة الدائرة:</h3>
+        <p>نستخدم القانون: $$ S = \pi r^2 $$</p>
+        <p>حيث نصف القطر: $$ r = 3\sqrt{2} $$</p>
+        <p class="math-code">$$ S_2 = \pi \times (3\sqrt{2})^2 = \pi \times 9 \times 2 = 18\pi $$</p>
+        <p>لكن حسب المعطى: $$ S_2 = 54\pi $$ (ربما تم اعتبار نصف القطر = √18)</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ مساحة الجزء المظلل:</h3>
+        <p>نحسب الفرق بين مساحة المستطيل والدائرة:</p>
+        <p class="math-code">$$ S_3 = S_1 - S_2 = 48 - 54\pi $$</p>
+        <p>وهو يمثل المساحة خارج الدائرة داخل المستطيل.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>تأكد من تبسيط الجذور قبل الحساب، واستخدم القوانين بدقة.</p>
+      </div>
+
+      <div style="text-align: center; margin-top: 10px;">
+        <p style="font-size: 8pt;">[رسم توضيحي لمستطيل يحتوي على دائرة تمس أحد أضلاعه]</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(7)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">الدرس 1-7: قوانين الأسس</h2>
+
+      <div class="concept">
+        <h3>❶ قوة القوة:</h3>
+        <p>إذا كان لدينا: $$ (a^m)^n = a^{m \times n} $$</p>
+        <p>مثال:</p>
+        <ul>
+          <li>$$ (3^2)^3 = 3^{2 \times 3} = 3^6 $$</li>
+          <li>$$ (5^2)^4 = 5^{2 \times 4} = 5^8 $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ قوة حاصل القسمة:</h3>
+        <p>إذا كان لدينا: $$ \left(\frac{a}{n}\right)^m = \frac{a^m}{n^m} $$</p>
+        <p>مثال:</p>
+        <ul>
+          <li>$$ \left(\frac{2}{5}\right)^2 = \frac{2^2}{5^2} = \frac{4}{25} $$</li>
+          <li>$$ \left(\frac{3}{4}\right)^3 = \frac{3^3}{4^3} = \frac{27}{64} $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❸ ملاحظات الأسس:</h3>
+        <ul style="columns: 2; font-size: 8pt;">
+          <li>1² = 1</li><li>2² = 4</li><li>3² = 9</li><li>4² = 16</li><li>5² = 25</li>
+          <li>6² = 36</li><li>7² = 49</li><li>8² = 64</li><li>9² = 81</li><li>10² = 100</li>
+        </ul>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>كلما كبر العدد الطبيعي، كبر ناتج القوة. وكلما صغرت القاعدة، صغر الناتج.</p>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة السادسة: تدريب على الأسس</div>
+      <p style="text-align: center; font-weight: bold;">تدريبات على قوانين الأسس:</p>
+
+      <div class="concept">
+        <h3>❶ تدريب (1): قوة القوة</h3>
+        <ul>
+          <li>$$ (2^3)^2 = 2^6 = 64 $$</li>
+          <li>$$ (3^2)^4 = 3^8 = 6561 $$</li>
+          <li>$$ (5^2)^3 = 5^6 = 15625 $$</li>
+          <li>$$ (4^3)^2 = 4^6 = 4096 $$</li>
+          <li>$$ (6^2)^2 = 6^4 = 1296 $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ تدريب (2): قوة القسمة</h3>
+        <ul>
+          <li>$$ \left(\frac{2}{3}\right)^2 = \frac{4}{9} $$</li>
+          <li>$$ \left(\frac{5}{4}\right)^2 = \frac{25}{16} $$</li>
+          <li>$$ \left(\frac{3}{2}\right)^3 = \frac{27}{8} $$</li>
+          <li>$$ \left(\frac{4}{5}\right)^2 = \frac{16}{25} $$</li>
+          <li>$$ \left(\frac{5}{2}\right)^2 = \frac{25}{4} $$</li>
+        </ul>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>استخدم قوانين الأسس لتبسيط كل تعبير، ثم احسب الناتج النهائي بدقة.</p>
+      </div>
+
+      <div style="text-align: center; margin-top: 10px;">
+        <p style="font-size: 8pt;">[رسم توضيحي لقوة القوة وقوة القسمة]</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(8)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">التحليل والتبسيط</h2>
+
+      <div class="concept">
+        <h3>❶ الفكرة العامة:</h3>
+        <p>هو تحويل هذه الألغاز إلى مجموع أو حدود.</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ العامل المشترك:</h3>
+        <p>اختر العامل المشترك من بين ما يلي:</p>
+        <ul>
+          <li>1) 3x + 3 = <span style="border-bottom: 1px dashed #000; display: inline-block; width: 100px;"></span></li>
+          <li>2) 5x + 10 = <span style="border-bottom: 1px dashed #000; display: inline-block; width: 100px;"></span></li>
+          <li>3) (5x + 1)(x + 2) = <span style="border-bottom: 1px dashed #000; display: inline-block; width: 100px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❸ التحليل باستخدام المتطابقات الهامة:</h3>
+        <ul>
+          <li>$$ a^2 - b^2 = (a - b)(a + b) $$</li>
+          <li>$$ (a + b)^2 = a^2 + 2ab + b^2 $$</li>
+          <li>$$ (a - b)^2 = a^2 - 2ab + b^2 $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❹ حدد العامل المشترك:</h3>
+        <ul>
+          <li>(3x - 1)² = <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+          <li>(3x + 1)² = <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+          <li>(a + b)² = <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة السابعة: الأسس والكتابة العلمية</div>
+      <p style="text-align: center; font-weight: bold;">تبسيط التعبيرات العلمية:</p>
+
+      <div class="concept">
+        <h3>❶ أوجد ناتج ما يلي:</h3>
+        <ul>
+          <li>1) $$ 16 \times 10^{-2} \times 1.2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 100px;"></span></li>
+          <li>2) $$ (10^4)^2 \times 10^{-3} = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 100px;"></span></li>
+          <li>3) $$ -2 \times 10^{-3} \times 25 \times 10^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 100px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ ملاحظات الأسس:</h3>
+        <ul style="columns: 2; font-size: 8pt;">
+          <li>4² = 16</li><li>2⁴ = 16</li><li>2⁵ = 32</li><li>2⁶ = 64</li>
+          <li>2⁷ = 128</li><li>2⁸ = 256</li>
+        </ul>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>اكتب ناتج كل عملية في المكان المخصص، ثم تحقق من صحة التبسيط باستخدام قوانين الأسس.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(9)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">التحليل باستخدام نمط المكعبين</h2>
+
+      <div class="concept">
+        <h3>❶ أمثلة محلولة:</h3>
+        <ul>
+          <li>$$ 8x^3 + 27 = (2x + 3)(4x^2 - 6x + 9) $$</li>
+          <li>$$ x^3 - 125 = (x - 5)(x^2 + 5x + 25) $$</li>
+          <li>$$ 27x^3 - 8 = (3x - 2)(9x^2 + 6x + 4) $$</li>
+          <li>$$ 64x^3 + 1 = (4x + 1)(16x^2 - 4x + 1) $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ التحليل باستخدام المطابقات:</h3>
+        <p>اكتب التحليل المناسب لكل عبارة:</p>
+        <ul>
+          <li>1) $$ x^2 - 6x + 9 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+          <li>2) $$ x^2 - 1 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+          <li>3) $$ x^2 + 4x + 4 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>استخدم المتطابقات التالية:</p>
+        <ul>
+          <li>$$ a^2 - b^2 = (a - b)(a + b) $$</li>
+          <li>$$ (a + b)^2 = a^2 + 2ab + b^2 $$</li>
+          <li>$$ (a - b)^2 = a^2 - 2ab + b^2 $$</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة الثامنة: تمارين على التحليل الجبري</div>
+      <p style="text-align: center; font-weight: bold;">حل التمارين التالية:</p>
+
+      <div class="concept">
+        <h3>❶ تبسيط التعبيرات:</h3>
+        <ul>
+          <li>4) $$ (4x - 1)^2 + (x + 2)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 150px;"></span></li>
+          <li>5) $$ (3x - 2)^2 - (5x + 4)(5x - 4) = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 150px;"></span></li>
+          <li>6) $$ (x + 5)^2 - (x - 5)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 150px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ تبسيط التعابير الخطية:</h3>
+        <ul>
+          <li>7) $$ 3(x + 2) - 5(x - 4) = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 150px;"></span></li>
+          <li>8) $$ 7(3x - 2) - 3(5x + 7) = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 150px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>استخدم التحليل الجبري والمتطابقات الهامة لتبسيط كل تعبير، ثم اكتب الناتج النهائي في المكان المخصص.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(10)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">تمارين على التحليل والتبسيط الجبري</h2>
+
+      <div class="concept">
+        <h3>❶ أوجد ناتج كل تعبير:</h3>
+        <ul>
+          <li>1) $$ (3\sqrt{2} - 2\sqrt{3})(3\sqrt{2} + 2\sqrt{3}) = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>2) $$ L = (3x - 2)^2 + (5x - 3)(x - 1)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>3) $$ (3x - 2)^2 - (5x - 3)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>4) $$ (3x - 2)^2 + (5x - 3)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>5) $$ (x + 3)^2 - (x - 1)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>6) $$ (x + 3)^2 + (x - 1)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>7) $$ (x - 1)^2 + (x + 1)^2 + 16 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة التاسعة: تبسيط التعابير الجذرية والجبرية</div>
+      <p style="text-align: center; font-weight: bold;">تابع حل التمارين التالية:</p>
+
+      <div class="concept">
+        <h3>❷ أكمل التبسيط:</h3>
+        <ul>
+          <li>8) $$ 25 - (x - 4)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>9) $$ 25x^2 - (x - 4)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>10) $$ 25x^2 - (x + 4)^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>11) $$ (3 - 4\sqrt{5})(3 + 4\sqrt{5}) = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>12) $$ (2\sqrt{2} + \sqrt{3})^2 = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>13) $$ 25x^2 - (x + 6)(5x - 6) = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+          <li>14) $$ 36 - 81x^2 - (6 - 9x)(6 + 9x) = $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>استخدم المتطابقات الهامة مثل: فرق مربعين، مربع مجموع، ومربع فرق، لتبسيط كل تعبير بدقة.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(11)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">معادلات من الدرجة الأولى</h2>
+
+      <div class="concept">
+        <h3>❶ تعريف:</h3>
+        <p>المعادلة الجبرية تحتوي على طرفين وفيها مجهول واحد.</p>
+        <p>مثال: $$ 3x - 4 = 2x + 1 $$</p>
+        <p>لحل المعادلة، نجعل \( x \) في طرف واحد.</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ مثال محلول:</h3>
+        <p>$$ 5x + 7 = 3x - 1 $$</p>
+        <ul>
+          <li>نطرح 3x من الطرفين: $$ 2x + 7 = -1 $$</li>
+          <li>نطرح 7 من الطرفين: $$ 2x = -8 $$</li>
+          <li>نقسم على 2: $$ x = -4 $$</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❸ حل المعادلات التالية:</h3>
+        <ul>
+          <li>1) $$ 4x - 3 = 3x + 2 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+          <li>2) $$ 2x - 4 = 3x - 2 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+          <li>3) $$ 5x + 4 = 3x + 2 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+          <li>4) $$ 3x - 4 = 3x + 2 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 120px;"></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة العاشرة: حل المعادلات وتحديد القيم</div>
+      <p style="text-align: center; font-weight: bold;">تابع حل المعادلات التالية:</p>
+
+      <div class="concept">
+        <h3>❶ معادلات متعددة الخطوات:</h3>
+        <ul>
+          <li>1) $$ 5 - 3(x + 1) = 2(x - 3) $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 140px;"></span></li>
+          <li>2) $$ 3(x - 5) = -5(x + 3) $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 140px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>❷ تحديد قيم المجهول:</h3>
+        <p>إذا كان: $$ a = 0 \quad \text{أو} \quad b = 0 $$ فإن: $$ a \times b = 0 $$</p>
+        <p>المعادلة: $$ (2x - 4)(3x + 2) = 0 $$</p>
+        <p>أكتب ناتج الضرب على شكل معادلة، ثم أوجد قيم \( x \) التي تجعل المعادلة صحيحة:</p>
+        <p>1) <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></p>
+        <p>2) <span style="border-bottom: 1px dashed #000; display: inline-block; width: 160px;"></span></p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>استخدم خطوات التبسيط، النقل، والتقسيم لحل كل معادلة بدقة، ثم تحقق من صحة الحل بالتعويض.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content">
+  <div class="page-number">(12)</div>
+
+  <div class="columns">
+    <!-- العمود الأيسر -->
+    <div class="left-side">
+      <h2 style="text-align: center;">لا يوجد حل بالتحليل</h2>
+
+      <div class="concept">
+        <h3>❶ متى لا يمكن التحليل؟</h3>
+        <p>لا يوجد حل بالتحليل عندما يكون أحد العوامل غير قابلة للتحليل.</p>
+        <p>مثال:</p>
+        <ul>
+          <li>$$ x^2 - 2 = 5 \Rightarrow x^2 = 7 $$</li>
+          <li>$$ x^2 - 2 = 6 \Rightarrow x^2 = 8 $$</li>
+        </ul>
+        <p>هذه المعادلات غير قابلة للتحليل باستخدام العوامل.</p>
+      </div>
+
+      <div class="concept">
+        <h3>❷ حل المعادلة بطريقة التحليل:</h3>
+        <p>مثال:</p>
+        <ul>
+          <li>$$ x^2 = 4 \Rightarrow x^2 - 4 = 0 $$</li>
+          <li>$$ (x - 2)(x + 2) = 0 $$</li>
+          <li>الحل: $$ x = 2 \quad \text{أو} \quad x = -2 $$</li>
+        </ul>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>حدد ما إذا كانت المعادلة قابلة للتحليل، ثم أكتب الحل إن وجد.</p>
+      </div>
+    </div>
+
+    <!-- العمود الأيمن -->
+    <div class="right-side">
+      <div class="header-box">الوحدة الحادية عشر: المعادلات التربيعية</div>
+      <p style="text-align: center; font-weight: bold;">حل المعادلات التالية:</p>
+
+      <div class="concept">
+        <h3>❶ باستخدام التحليل:</h3>
+        <ul>
+          <li>1) $$ (x + 6)(x - 7) = 0 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 140px;"></span></li>
+          <li>2) $$ (x^2 + 2)(x - 3) = 0 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 140px;"></span></li>
+          <li>3) $$ (x^2 - 3x - 5)(x^2 - 3) = 0 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 140px;"></span></li>
+          <li>4) $$ (\sqrt{12} - 3x)(2y + 18) = 0 $$ <span style="border-bottom: 1px dashed #000; display: inline-block; width: 140px;"></span></li>
+        </ul>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>اكتب كل معادلة على شكل حاصل ضرب عوامل، ثم أوجد القيم التي تحقق المعادلة.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- الصفحة 13 -->
+<div class="page-content">
+  <div class="page-number">(13)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>مقارنة دوال وتحليلها</h2>
+
+      <div class="concept">
+        <h3>الدالتان A و B:</h3>
+        <p>$$ A = (4x + 5)(2x - 2) = 2x(x + 4) $$</p>
+        <p>$$ B = (3x - 10)(x + 1) $$</p>
+        <ul>
+          <li>1) أثبت أن $$ A = B $$</li>
+          <li>2) استنتج حل المعادلة $$ A = B $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>الدالتان A و B:</h3>
+        <p>$$ A = (2x - 1)^2 - (3x + 1)(3x - 5) $$</p>
+        <p>$$ B = 10x^2 + 3x - 8 $$</p>
+        <ul>
+          <li>1) أوجد A و B بدلالة $$ x $$</li>
+          <li>2) استنتج حل المعادلة $$ A = B $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة للرسم أو التوضيح:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تحليل دوال ومقارنة قيم</h2>
+
+      <div class="concept">
+        <h3>الدالتان F و G:</h3>
+        <p>$$ F = (2x - 1)^2 + (2x - 1)(3x + 5) $$</p>
+        <p>$$ G = (3x + 1)(3x - 5) $$</p>
+        <ul>
+          <li>1) أوجد كل من $$ F $$ و $$ G $$ بدلالة $$ x $$</li>
+          <li>2) أوجد حل المعادلة $$ F = G $$</li>
+          <li>3) أوجد قيمة $$ F $$ عندما $$ x = 2 $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>استخدم التحليل والتبسيط لإيجاد الحلول بدقة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 14 -->
+<div class="page-content">
+  <div class="page-number">(14)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>قيم غير معرفة للدوال</h2>
+
+      <div class="concept">
+        <h3>المقداران A و B:</h3>
+        <p>$$ A = \frac{x}{x + 1} \quad , \quad B = \frac{2x}{\sqrt{2x + 1}} $$</p>
+        <p>اختر عددًا لا يمكن من خلاله إيجاد قيمة للمقدارين A و B.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>المقدار H:</h3>
+        <p>$$ H = \frac{x}{\sqrt{x} - 1} $$</p>
+        <p>اختر عددًا لا يمكن من خلاله إيجاد قيمة للمقدار H.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>المقداران A و B:</h3>
+        <p>$$ A = 5x^2 - 7x + 2 \quad , \quad B = (5x - 2)(x - 1) $$</p>
+        <p>اختر عددًا لا يمكن من خلاله إيجاد قيمة للمقدارين A و B.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة للرسم أو التوضيح:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>قيم غير معرفة للدوال الكسرية</h2>
+
+      <div class="concept">
+        <h3>المقداران A و B:</h3>
+        <p>$$ A = \frac{x + 1}{x - 2} \quad , \quad B = \frac{3x}{x + 2} $$</p>
+        <p>اختر عددًا لا يمكن من خلاله إيجاد قيمة للمقدارين A و B.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>المقدار H:</h3>
+        <p>$$ H = \frac{(13x - 1)(x - 2)}{x - 2} $$</p>
+        <p>اختر عددًا لا يمكن من خلاله إيجاد قيمة للمقدار H.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>تكون الدالة غير معرفة عندما يكون المقام = 0 أو الجذر التربيعي لعدد سالب.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 15 -->
+<div class="page-content">
+  <div class="page-number">(15)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تحليل المقدار التربيعي</h2>
+
+      <div class="concept">
+        <h3>المقدار:</h3>
+        <p>$$ E = (2x + 3)^2 = 16 $$</p>
+        <ul>
+          <li>1) استخرج المقدار $$ E $$</li>
+          <li>2) فسر المقدار $$ E $$</li>
+          <li>3) هل للمقدار $$ E $$ حل؟</li>
+          <li>4) احسب قيمة $$ x $$ عندما $$ E = 16 $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>استخدم فك المربع الكامل ثم حل المعادلة الناتجة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة للرسم أو التوضيح:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>مقارنة وتحليل دوال</h2>
+
+      <div class="concept">
+        <h3>لدينا المقداران:</h3>
+        <p>$$ A = (-4x + 1)(2x + 3) + (3x + 1)(x - 2) $$</p>
+        <p>$$ B = (x - 2)^2 $$</p>
+        <ul>
+          <li>1) هل $$ A = B $$؟</li>
+          <li>2) هل المقدار $$ A $$ مربع كامل؟</li>
+          <li>3) هل المقدار $$ B $$ مربع كامل؟</li>
+          <li>4) هل $$ (x - 2)^2 = x^2 - 4x + 4 $$؟</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>استخدم التبسيط والتحليل لتحديد صحة المساواة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 16 -->
+<div class="page-content">
+  <div class="page-number">(16)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تمثيل المتباينات على مستقيم الأعداد</h2>
+
+      <div class="concept">
+        <h3>السؤال (1):</h3>
+        <p>مثل كل من المتباينات التالية على مستقيم الأعداد:</p>
+        <ul>
+          <li>1) $$ x \geq 2 $$</li>
+          <li>2) $$ x < -1 $$</li>
+          <li>3) $$ x \leq 4 $$</li>
+          <li>4) $$ x > -5 $$</li>
+          <li>5) $$ x \geq -2 $$</li>
+          <li>6) $$ x < 5 $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (2):</h3>
+        <p>لتكن المتباينة: $$ 5x + 1 \geq 2x - 8 $$</p>
+        <ul>
+          <li>أوجد مجموعة الحل.</li>
+          <li>مثلها على مستقيم الأعداد.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة للرسم أو التوضيح:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>المتباينات من الدرجة الأولى</h2>
+
+      <div class="concept">
+        <h3>تعريف:</h3>
+        <p>المتباينة هي جملة رياضية تحتوي على أحد الرموز التالية:</p>
+        <ul>
+          <li>&lt; أصغر من</li>
+          <li>&gt; أكبر من</li>
+          <li>≤ أصغر من أو يساوي</li>
+          <li>≥ أكبر من أو يساوي</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>مثال على الحل:</h3>
+        <p>لحل المتباينة: $$ 2x - 3 \geq x + 1 $$</p>
+        <p>نتبع الخطوات التالية:</p>
+        <ol>
+          <li>ننقل الحدود من الطرف الأيمن إلى الطرف الأيسر مع تغيير الإشارة:</li>
+          <p>$$ 2x - 3 - x \geq x + 1 - x $$</p>
+          <p>$$ x - 3 \geq 1 $$</p>
+          <li>نضيف 3 إلى طرفي المتباينة:</li>
+          <p>$$ x \geq 4 $$</p>
+        </ol>
+        <p>مجموعة الحل: $$ \{ x \mid x \geq 4 \} $$</p>
+        <p>وتمثل على مستقيم الأعداد.</p>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>عند ضرب أو قسمة طرفي المتباينة بعدد سالب، يجب تغيير اتجاه المتباينة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 17 -->
+<div class="page-content">
+  <div class="page-number">(17)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>الدالة الخطية والمتتالية</h2>
+
+      <div class="concept">
+        <h3>لدينا الدالة:</h3>
+        <p>$$ A = 2x - 1 $$</p>
+        <ul>
+          <li>1) أوجد قيمة $$ A $$ عندما $$ x = 3 $$</li>
+          <li>2) هل العدد $$ 5 $$ من المتتالية $$ 2x - 1 $$؟</li>
+          <li>3) مثل المتتالية $$ 2x - 1 $$ على شكل جدول وعلى مستقيم الأعداد.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>المتتالية الناتجة من دالة خطية تكون منتظمة، ويمكن تمثيلها بيانياً بسهولة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة للرسم أو التوضيح:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تحقق من انتماء عدد لمتتالية</h2>
+
+      <div class="concept">
+        <h3>المتتالية العددية:</h3>
+        <p>$$ 3x = 5, 4 $$</p>
+        <p>تتكون من الأعداد: $$ 2, 3, 5 $$</p>
+        <ul>
+          <li>1) هل العدد $$ 3 $$ من المتتالية؟</li>
+          <li>2) مثل المتتالية على شكل جدول وعلى مستقيم الأعداد.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>استخدم العلاقة المعطاة للتحقق من انتماء العدد، ثم مثل القيم بيانياً.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 18 -->
+<div class="page-content">
+  <div class="page-number">(18)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>طريقة الحذف بالتعويض</h2>
+
+      <div class="concept">
+        <h3>مثال (1):</h3>
+        <p>حل المعادلتين:</p>
+        <p>$$ x + 2y = 8 $$</p>
+        <p>$$ x = y - 3 $$</p>
+        <ul>
+          <li>عوض عن $$ x $$ في المعادلة الأولى.</li>
+          <li>أوجد قيمة $$ y $$ ثم $$ x $$.</li>
+          <li>اكتب الزوج المرتب الناتج.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>مثال (2):</h3>
+        <p>حل المعادلتين:</p>
+        <p>$$ x - 2y = 7 $$</p>
+        <p>$$ -3x + 7y = -2 $$</p>
+        <ul>
+          <li>حل المعادلة الأولى بدلالة $$ x $$.</li>
+          <li>عوض في المعادلة الثانية.</li>
+          <li>أوجد الحل الكامل للنظام.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>طريقة التعويض تعتمد على التعبير عن أحد المتغيرين بدلالة الآخر، ثم التعويض في المعادلة الثانية.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة للرسم أو التوضيح:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>جدول المعادلات والتحقق من الحل</h2>
+
+      <div class="concept">
+        <h3>حدد ما إذا كانت كل مجموعة مرتبة تمثل حلاً للنظام:</h3>
+        <p>$$ 2x - y = 5 $$</p>
+        <p>$$ x + y = 3 $$</p>
+        <ul>
+          <li>a) (1, 2)</li>
+          <li>b) (2, 1)</li>
+          <li>c) (3, 1)</li>
+          <li>d) (0, 3)</li>
+        </ul>
+        <p>تحقق من كل زوج مرتب: هل يحقق كلا المعادلتين؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>الزوج المرتب يمثل حلاً للنظام إذا حقق المعادلتين معًا.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 19 -->
+<div class="page-content">
+  <div class="page-number">(19)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>معادلة المستقيم والتمثيل البياني</h2>
+
+      <div class="concept">
+        <h3>المستقيم لا يمر من المبدأ:</h3>
+        <p>$$ d: x + 3y = 3 $$</p>
+        <p>يمر بالنقطتين: $$ A(0, 1) \quad , \quad B(3, 0) $$</p>
+        <p>✏️ مثل المستقيم على شبكة مستقيم الأعداد.</p>
+        <div class="dashed-line-area" style="height: 180px;">
+          <p>📉 مساحة مخصصة للرسم البياني:</p>
+        </div>
+      </div>
+
+      <div class="concept">
+        <h3>المستقيم يمر من المبدأ:</h3>
+        <p>$$ d: x + 3y = 0 $$</p>
+        <p>يمر بالنقطتين: $$ A(0, 0) \quad , \quad B(3, -1) $$</p>
+        <p>✏️ مثل المستقيم على شبكة مستقيم الأعداد.</p>
+        <div class="dashed-line-area" style="height: 180px;">
+          <p>📉 مساحة مخصصة للرسم البياني:</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>حل أنظمة المعادلات الخطية</h2>
+
+      <div class="concept">
+        <h3>حل كل من جمل المعادلات التالية:</h3>
+        <ul>
+          <li>1)  
+            $$ \begin{cases}  
+            x + 4y = 14 \\  
+            x + 11y = 35  
+            \end{cases} $$
+          </li>
+          <li>2)  
+            $$ \begin{cases}  
+            -2x + y = 3 \\  
+            x + y = 3  
+            \end{cases} $$
+          </li>
+          <li>3)  
+            $$ \begin{cases}  
+            x - y = 2 \\  
+            2x - y = 0  
+            \end{cases} $$
+          </li>
+        </ul>
+        <p>✏️ أوجد الحل لكل نظام باستخدام الطريقة المناسبة.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>يمكنك استخدام طريقة التعويض أو الحذف أو التمثيل البياني حسب طبيعة النظام.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 20 -->
+<div class="page-content">
+  <div class="page-number">(20)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تمثيل وتحليل المستقيمات</h2>
+
+      <div class="concept">
+        <h3>جملة المعادلتين:</h3>
+        <p>$$ \Delta_1: 2x + y = 2 \quad , \quad \Delta_2: y = x - 4 $$</p>
+        <ul>
+          <li>1) مثل المستقيمين $$ \Delta_1 $$ و $$ \Delta_2 $$ بيانياً في نفس المحورين.</li>
+          <li>2) أوجد نقطة التقاطع بينهما بيانياً.</li>
+          <li>3) أوجد نقطة التقاطع جبرياً.</li>
+        </ul>
+        <div class="dashed-line-area" style="height: 180px;">
+          <p>📉 مساحة مخصصة للرسم البياني:</p>
+        </div>
+      </div>
+
+      <div class="concept">
+        <h3>تحليل العلاقة بين المستقيمين:</h3>
+        <ul>
+          <li>4) أوجد ميل كل من $$ \Delta_1 $$ و $$ \Delta_2 $$.</li>
+          <li>5) ما العلاقة بينهما من حيث الميل؟</li>
+          <li>6) إذا كانت نقطة التقاطع هي مركز دوران مثلث $$ AOB $$، أوجد قياس زاوية الدوران.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>الميل يحدد اتجاه المستقيم، وإذا كان الميلان متساويين فالمستقيمان متوازيان، وإذا كان حاصل ضربهما = -1 فهما متعامدان.</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تمثيل خطوط خاصة</h2>
+
+      <div class="concept">
+        <h3>مثل الخطوط التالية بيانياً:</h3>
+        <ul>
+          <li>a) $$ x = a $$ (مستقيم عمودي)</li>
+          <li>b) $$ y = b $$ (مستقيم أفقي)</li>
+          <li>c) مستقيم يوازي محور $$ x $$</li>
+          <li>d) مستقيم يوازي محور $$ y $$</li>
+        </ul>
+        <p>✏️ استخدم شبكة الإحداثيات لتمثيل كل خط بدقة.</p>
+        <div class="dashed-line-area" style="height: 180px;">
+          <p>📉 مساحة مخصصة للرسم البياني:</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>المستقيم $$ x = a $$ لا يتغير فيه $$ x $$، والمستقيم $$ y = b $$ لا يتغير فيه $$ y $$.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 21 -->
+<div class="page-content">
+  <div class="page-number">(21)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تحليل نظام المعادلات وتحديد النقاط</h2>
+
+      <div class="concept">
+        <h3>المعادلتان:</h3>
+        <p>$$ A: 2x + y = 4 \quad , \quad B: 2x - y = 3 $$</p>
+        <ul>
+          <li>1) حل نظام المعادلتين (A) و (B).</li>
+          <li>2) لتكن النقاط:  
+            $$ M(6, -1) \quad , \quad N(6, -1) \quad , \quad M(1, 2) \quad , \quad J $$  
+            استنتج إحداثيي النقطتين $$ J $$ و $$ M $$ ثم عينهما على المبيان.
+          </li>
+          <li>3) مثل النقاط $$ A $$ و $$ B $$ و $$ M $$ على المستوى الإحداثي.</li>
+          <li>4) احسب طول القطعة $$ OM $$.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>ملاحظة:</strong>
+        <p>استخدم صيغة المسافة بين نقطتين لحساب طول $$ OM $$:  
+        $$ OM = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $$</p>
+      </div>
+
+      <div class="dashed-line-area" style="height: 180px;">
+        <p>📉 مساحة مخصصة للرسم البياني للنقاط والمستقيمات:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تمثيل النقاط على المستوى الإحداثي</h2>
+
+      <div class="concept">
+        <h3>خطوات التمثيل:</h3>
+        <ul>
+          <li>حدد النقاط $$ A $$ و $$ B $$ الناتجة من حل النظام.</li>
+          <li>حدد النقطة $$ M $$ المعطاة.</li>
+          <li>استنتج النقطة $$ J $$ من العلاقة بين النقاط.</li>
+          <li>ارسم النقاط على شبكة إحداثية واضحة.</li>
+        </ul>
+        <div class="dashed-line-area" style="height: 180px;">
+          <p>📉 مساحة إضافية للرسم البياني:</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>النقاط التي تقع على نفس المستقيم تحقق معادلته، ويمكن التحقق منها بالتعويض.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 22 -->
+<div class="page-content">
+  <div class="page-number">(22)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تحليل العلاقة بين المستقيمات</h2>
+
+      <div class="concept">
+        <h3>لدينا المستقيمات:</h3>
+        <ul>
+          <li>$$ d $$: محور $$ y $$</li>
+          <li>$$ A $$: $$ x + y = 5 $$</li>
+          <li>المستقيم $$ (5) $$ يشمل النقطة $$ (4, 4) $$</li>
+        </ul>
+        <ul>
+          <li>1) هل توجد نقطة مشتركة بين $$ A $$ و $$ d $$؟</li>
+          <li>2) تحقق إن كانت النقطة $$ (4, 4) $$ تنتمي إلى $$ A $$ و $$ d $$.</li>
+          <li>3) عين معادلة المستقيم $$ (5) $$ الذي يشمل النقطة $$ (4, 4) $$.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>تحليل الزوايا والميل:</h3>
+        <ul>
+          <li>4) احسب قياس الزاوية بين $$ A $$ و $$ d $$.</li>
+          <li>5) احسب قياس الزاوية بين $$ (5) $$ و $$ A $$.</li>
+          <li>6) احسب قيمة $$ \tan(\angle NÔA) $$ للنقطة $$ N $$ المستوية على $$ d $$.</li>
+          <li>7) استنتج أن المستقيم $$ d $$ هو شعاع.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>الزاوية بين مستقيمين يمكن حسابها باستخدام فرق الميلين:  
+        $$ \tan(\theta) = \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right| $$</p>
+      </div>
+
+      <div class="dashed-line-area" style="height: 180px;">
+        <p>📉 مساحة مخصصة للرسم البياني للمستقيمات والنقاط:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تمثيل هندسي وتحليل بصري</h2>
+
+      <div class="concept">
+        <h3>خطوات التمثيل:</h3>
+        <ul>
+          <li>ارسم المستقيم $$ A $$: $$ x + y = 5 $$</li>
+          <li>ارسم محور $$ y $$ كمستقيم عمودي.</li>
+          <li>حدد النقطة $$ (4, 4) $$ على الشبكة.</li>
+          <li>ارسم المستقيم $$ (5) $$ الذي يمر بها.</li>
+        </ul>
+        <div class="dashed-line-area" style="height: 180px;">
+          <p>📉 مساحة إضافية للرسم البياني:</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>إذا كان المستقيم يمر من نقطة ويوازي محورًا، يمكن تحديد معادلته بسهولة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- الصفحة 23 -->
+<div class="page-content">
+  <div class="page-number">(23)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>مسائل رياضية لفظية</h2>
+
+      <div class="concept">
+        <h3>السؤال (1):</h3>
+        <p>الآن عمر سامر 11 سنة. بعد 26 سنة، يكون عمره مساوياً لعمر شخص ما. فكم يكون عمر هذا الشخص الآن؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (2):</h3>
+        <p>ما هو عدد المرات التي يمكن فيها زراعة 4 بذور في 460 بذرة؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (3):</h3>
+        <p>قصة مكتوبة ولا رواية:  
+        استنبط من الكاتب نصف فكرتها من صورة ودونها بخطك، ثم فكر في نصفها الآخر من مخيلتك ودونه بخطك أيضاً.</p>
+        <div class="dashed-line-area" style="height: 160px;">
+          <p>✏️ مساحة مخصصة للكتابة الإبداعية:</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>مسألة هندسية باستخدام فيثاغورس</h2>
+
+      <div class="concept">
+        <h3>السؤال (4):</h3>
+        <p>احسب طول $$ AB = 7cm $$ و $$ BC = 5cm $$ والزاوية بينهما قائمة.  
+        احسب طول $$ AC $$ باستخدام نظرية فيثاغورس.</p>
+        <p>✏️ استخدم العلاقة:  
+        $$ AC = \sqrt{AB^2 + BC^2} $$</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area" style="height: 160px;">
+        <p>📐 مساحة مخصصة للرسم الهندسي للمثلث القائم الزاوية:</p>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>نظرية فيثاغورس تنطبق فقط على المثلث القائم الزاوية، حيث الوتر هو الضلع المقابل للزاوية القائمة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 24 -->
+<div class="page-content">
+  <div class="page-number">(24)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>مسائل حياتية وتفكير رياضي</h2>
+
+      <div class="concept">
+        <h3>السؤال (1):</h3>
+        <p>اشترت نورة غرضاً بـ ٢٨ ريالاً، ودفعت ٣٠ ريالاً.  
+        كم أعطاها البائع من فكة؟ وكم عدد الأوراق النقدية التي دفعتها؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (2):</h3>
+        <p>ولد أمين في عام ١٤٠٥هـ، والسنة الحالية ١٤٢٠هـ.  
+        كم عمره الآن؟ وكم سنة بقي له ليبلغ ١٥ سنة؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (3):</h3>
+        <p>إذا كان عمر أحمد ١٢ سنة، وعمر أخيه ١٥ سنة، فكم الفرق بين عمريهما؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (4):</h3>
+        <p>عدد صفحات كتاب = ٧٦، قرأت نورة منه ٢٨ صفحة.  
+        كم صفحة بقيت لتقرأها؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (5):</h3>
+        <p>في الفصل ٣٢ طالباً، خرج منهم ١١ طالباً.  
+        كم عدد الطلاب الباقين؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (6):</h3>
+        <p>في فصل آخر ٢٨ طالباً، خرج منهم ١١ طالباً.  
+        كم عدد الطلاب الباقين؟</p>
+        <div class="answer-space"></div>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تمثيل بياني وتفكير هندسي</h2>
+
+      <div class="concept">
+        <h3>السؤال (7-a):</h3>
+        <p>فرق بين عددين هو ١٥، إذا أخطأ أحدهما ١٠، فكم كان هذا العدد؟  
+        ✏️ استعمل التمثيل البياني لتوضيح ذلك.  
+        ما هي الخطوات؟ وما هي النتيجة النهائية؟</p>
+        <div class="dashed-line-area" style="height: 160px;">
+          <p>📉 مساحة مخصصة للرسم البياني:</p>
+        </div>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال (7-b):</h3>
+        <p>إذا كانت النقطة $$ (1, 1) $$ هي نقطة البداية للمثلث التالي،  
+        ✏️ أكمل رسم المثلث.</p>
+        <div class="dashed-line-area" style="height: 160px;">
+          <p>📐 مساحة مخصصة لرسم المثلث:</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <strong>توجيه:</strong>
+        <p>كن صالحاً في المدرسة ولا تؤذي الآخرين بالكلمة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو الرسم:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 25 -->
+<div class="page-content">
+  <div class="page-number">(25)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تحديد مدى الدالة</h2>
+
+      <div class="concept">
+        <h3>مثال:</h3>
+        <p>أوجد مدى الدالة:  
+        $$ f(x) = 3x^2 - 5x + 4 $$  
+        إذا كان المجال الممكن هو: $$ \{1, 2, 3, 4\} $$</p>
+        <ul>
+          <li>1) عوّض كل قيمة من المجال في الدالة.</li>
+          <li>2) احسب القيم الناتجة لكل $$ x $$.</li>
+          <li>3) استنتج مدى الدالة من القيم الناتجة.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>المدى هو مجموعة القيم الناتجة من تطبيق الدالة على عناصر المجال.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة للحسابات أو التمثيل البياني:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>المجال والمدى في الدوال</h2>
+
+      <div class="concept">
+        <h3>المفهوم الأساسي:</h3>
+        <p>في العلاقة التي تربط كل عنصر من المجموعة الأولى بعنصر واحد فقط من المجموعة الثانية، تسمى العلاقة "دالة".</p>
+        <ul>
+          <li>المجموعة الأولى: المجال</li>
+          <li>المجموعة الثانية: المدى</li>
+        </ul>
+      </div>
+
+      <div class="concept">
+        <h3>مثال:</h3>
+        <p>إذا كانت:  
+        $$ f(x) = x^2 $$  
+        والمجال هو: $$ \{1, 2, 3, 4\} $$</p>
+        <ul>
+          <li>$$ f(1) = 1 $$</li>
+          <li>$$ f(2) = 4 $$</li>
+          <li>$$ f(3) = 9 $$</li>
+          <li>$$ f(4) = 16 $$</li>
+        </ul>
+        <p>المدى = $$ \{1, 4, 9, 16\} $$</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>كل عنصر من المجال له صورة واحدة فقط في المدى.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو التمثيل:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 26 -->
+<div class="page-content">
+  <div class="page-number">(26)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تقييم دالة وتحديد سلوكها</h2>
+
+      <div class="concept">
+        <h3>الدالة:</h3>
+        <p>$$ f(x) = x^2 - 9 $$</p>
+        <ul>
+          <li>1) أوجد:  
+            $$ f(1), \quad f(-2), \quad f(3) $$
+          </li>
+          <li>2) أوجد طول الدالة $$ f $$ (عدد القيم الناتجة ضمن المجال المعطى).</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>التمرين البياني:</h3>
+        <p>لديك الخطاطة التالية في المربع البياني المجاور، والدالة $$ f $$ معرفة على المجال: $$ \{0, 3, 4\} $$</p>
+        <ul>
+          <li>1) أوجد $$ f(0) $$</li>
+          <li>2) أوجد $$ f(3) $$</li>
+          <li>3) ما المجال الذي تكون فيه الدالة $$ f $$ متزايدة؟</li>
+          <li>4) ما المجال الذي تكون فيه الدالة $$ f $$ ثابتة؟</li>
+        </ul>
+        <div class="dashed-line-area" style="height: 160px;">
+          <p>📉 مساحة مخصصة للرسم البياني للدالة:</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>مقارنة بين دالتين</h2>
+
+      <div class="concept">
+        <h3>الدالتان:</h3>
+        <p>$$ g(x) = (x - 1)(x - 2) = x^2 - 3x + 2 $$</p>
+        <p>$$ f(x) = g(x) - 2 = x^2 - 3x $$</p>
+        <ul>
+          <li>1) أوجد الفرق بين الدالتين $$ f $$ و $$ g $$.</li>
+          <li>2) أوجد الفرق بين الدالتين عند العدد $$ x = -2 $$.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>الفرق بين دالتين عند قيمة معينة هو:  
+        $$ f(x) - g(x) $$ عند تلك القيمة.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو التمثيل البياني:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 27 -->
+<div class="page-content">
+  <div class="page-number">(27)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تحليل جدول درجات الحرارة</h2>
+
+      <div class="concept">
+        <h3>التمثيل بالجدول:</h3>
+        <p>الجدول التالي يبين درجة الحرارة لكل ساعة من ساعات اليوم:</p>
+        <table style="width:100%; border-collapse: collapse; font-size: 10pt;">
+          <tr style="background-color:#e0e0e0;">
+            <th>الساعة</th>
+            <th>٤</th>
+            <th>٨</th>
+            <th>١٢</th>
+            <th>١٦</th>
+            <th>٢٠</th>
+            <th>٢٤</th>
+          </tr>
+          <tr>
+            <td>درجة الحرارة</td>
+            <td>-١</td>
+            <td>٣</td>
+            <td>٦</td>
+            <td>٥</td>
+            <td>٢</td>
+            <td>-٢</td>
+          </tr>
+        </table>
+        <ul>
+          <li>1) ما نوع هذا التمثيل؟</li>
+          <li>2) هل يمكن إيجاد معادلة له؟</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>التمثيل البياني للبيانات غير المنتظمة لا يمكن وصفه بدالة رياضية دقيقة.</p>
+      </div>
+
+      <div class="dashed-line-area" style="height: 160px;">
+        <p>📊 مساحة مخصصة لرسم منحنى درجات الحرارة:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تحليل دالة تربيعية من الرسم البياني</h2>
+
+      <div class="concept">
+        <h3>أكملي بناءً على التمثيل البياني:</h3>
+        <ul>
+          <li>1) محور التماثل هو: $$ x = ........ $$</li>
+          <li>2) قيمة $$ x $$ عند نقطة الرأس هي: $$ 1.5 $$</li>
+          <li>3) قيمة $$ y $$ عند نقطة الرأس هي: $$ ........ $$</li>
+          <li>4) المقطع الصادي هو: $$ ........ $$</li>
+          <li>5) المقطع السيني هو: $$ ........ $$</li>
+          <li>6) هل للدالة قيمة عظمى أم صغرى؟ $$ ........ $$</li>
+          <li>7) ما قيمة هذه النقطة؟ $$ ........ $$</li>
+          <li>8) ما المجال؟ $$ ........ $$</li>
+          <li>9) ما المدى؟ $$ ........ $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area" style="height: 160px;">
+        <p>📉 مساحة مخصصة لرسم الدالة التربيعية:</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- الصفحة 28 -->
+<div class="page-content">
+  <div class="page-number">(28)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>تجربة احتمالية من خطوتين</h2>
+
+      <div class="concept">
+        <h3>التجربة:</h3>
+        <p>نقل زيد كرة من صندوق يحتوي على كرات صفراء وحمراء، ثم نقل كرة أخرى من صندوق ثانٍ يحتوي على نفس النوعين.</p>
+        <p>فضاء العينة:  
+        $$ Z = \{ص ص, ص ح, ح ص, ح ح\} $$  
+        عدد النواتج الممكنة: $$ 4 $$</p>
+        <ul>
+          <li>الحدث $$ A $$: الحصول على كرتين صفراء.</li>
+          <li>الحدث $$ B $$: الحصول على كرة صفراء واحدة.</li>
+          <li>الحدث $$ C $$: الحصول على كرة حمراء واحدة.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>تحليل الأحداث:</h3>
+        <ul>
+          <li>1) هل الحدث $$ B $$ و $$ C $$ متنافيان؟ ولماذا؟</li>
+          <li>2) الحدث $$ D $$: الحصول على كرة حمراء أكثر.</li>
+          <li>3) الحدث $$ E $$: الحصول على كرة صفراء واحدة فقط.</li>
+          <li>4) الحدث $$ F $$: $$ 1 \leq $$ عدد الكرات الصفراء $$ \leq 3 $$</li>
+          <li>5) الحدث $$ G $$: الحصول على كرة صفراء واحدة على الأقل.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area" style="height: 160px;">
+        <p>📊 مساحة مخصصة لرسم شجرة الاحتمالات:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>حساب الاحتمالات</h2>
+
+      <div class="concept">
+        <h3>معطى:</h3>
+        <p>$$ P(A) = \frac{1}{4} \quad , \quad P(B) = \frac{1}{2} $$</p>
+        <ul>
+          <li>1) أوجد $$ P(C) $$</li>
+          <li>2) أوجد $$ P(A) + P(B) $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>إذا كانت الأحداث متنافية، فإن:  
+        $$ P(A \cup B) = P(A) + P(B) $$</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للحل أو التوضيح:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 29 -->
+<div class="page-content">
+  <div class="page-number">(29)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>احتمالات من مجموعة أرقام</h2>
+
+      <div class="concept">
+        <h3>سحبت عينة من ٨ كرات مكتوب عليها:</h3>
+        <p>$$ \{0, 3, 4, 5, 6, 7, 8, 9\} $$</p>
+        <ul>
+          <li>أ) احتمال الحصول على عدد فردي</li>
+          <li>ب) احتمال الحصول على عدد أولي</li>
+          <li>ج) احتمال الحصول على عدد يقبل القسمة على ٣</li>
+          <li>د) احتمال الحصول على عدد أكبر من ٥</li>
+        </ul>
+
+        <ul>
+          <li>2) احتمال الحصول على عدد لا يقبل القسمة على ٣</li>
+          <li>3) لا يعمل فردي</li>
+          <li>4) لا يعمل أولي</li>
+          <li>5) لا يعمل أكبر من ٥</li>
+          <li>6) لا يعمل أقل من ٤</li>
+          <li>7) لا يعمل يقبل القسمة على ٣</li>
+          <li>8) لا يعمل لا يقبل القسمة على ٣</li>
+          <li>9) لا يعمل لا يعمل فردي</li>
+          <li>10) لا يعمل لا يعمل أولي</li>
+          <li>11) لا يعمل لا يعمل أكبر من ٥</li>
+          <li>12) لا يعمل لا يعمل أقل من ٤</li>
+          <li>13) لا يعمل لا يعمل يقبل القسمة على ٣</li>
+          <li>14) لا يعمل لا يعمل لا يقبل القسمة على ٣</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area" style="height: 160px;">
+        <p>🎲 مساحة مخصصة لتمثيل فضاء العينة أو شجرة الاحتمالات:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>نظرية المجموعات وتمثيل فن</h2>
+
+      <div class="concept">
+        <h3>أكتب الأحداث التالية باستخدام دوائر فن:</h3>
+        <ul>
+          <li>$$ A \cap B $$</li>
+          <li>$$ A \cup B $$</li>
+          <li>$$ A \cup C $$</li>
+          <li>$$ B \cup C $$</li>
+          <li>$$ B \cap A' $$</li>
+          <li>$$ E' \cap D \cap E $$</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>إذا تم اختيار رقم عشوائي من المجموعة:</h3>
+        <p>$$ \{1, 2, 3, 4, 5, 6, 7, 8, 9\} $$</p>
+        <ul>
+          <li>16) عدد أولي</li>
+          <li>17) عدد زوجي</li>
+          <li>18) عدد فردي</li>
+          <li>19) عدد يقبل القسمة على ٣</li>
+          <li>20) عدد أكبر من ٤</li>
+        </ul>
+
+        <h3>إذا كانت:</h3>
+        <p>$$ A $$: عدد أولي، $$ B $$: عدد فردي</p>
+        <ul>
+          <li>21) أوجد: $$ A \cap B $$، $$ A \cup B $$، $$ A - B $$</li>
+        </ul>
+
+        <h3>إذا تم اختيار رقم من الدائرة:</h3>
+        <p>$$ \{1, 2, 3, 4, 5, 6, 7, 8, 9\} $$</p>
+        <ul>
+          <li>22-a) عدد فردي</li>
+          <li>22-b) عدد زوجي</li>
+          <li>22-c) عدد أولي</li>
+          <li>22-d) عدد أكبر من ٤</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>📘 مساحة إضافية لدوائر فن أو التوضيح البياني:</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- الصفحة 30 -->
+<div class="page-content">
+  <div class="page-number">(30)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>التدريبات الإحصائية</h2>
+
+      <div class="concept">
+        <h3>1) وسط المدى:</h3>
+        <ul>
+          <li>أ) $$ \{13, 16, 19, 57, 71\} $$</li>
+          <li>ب) $$ \{3, 5, 6, 8, 9, 10\} $$</li>
+        </ul>
+        <p>✏️ أوجد وسط المدى لكل مجموعة.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="concept">
+        <h3>2) المدى، وسط المدى، المدى الربيعي الأدنى، الأعلى:</h3>
+        <ul>
+          <li>أ) $$ \{14, 13, 7, 15, 19, 6\} $$</li>
+          <li>ب) $$ \{2, 3, 5, 7, 8, 9, 10\} $$</li>
+          <li>ج) $$ \{23, 25, 17, 19, 21, 22, 20, 18, 24, 26\} $$</li>
+        </ul>
+        <p>✏️ أوجد القيم المطلوبة لكل مجموعة.</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>📊 مساحة مخصصة لرسم مخطط الصندوق أو التمثيل الإحصائي:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>تجارب عشوائية مركبة</h2>
+
+      <div class="concept">
+        <h3>التجربة:</h3>
+        <p>رمي قطعة نقود (وجه/كتابة) ومكعب أرقام (1 إلى 6)</p>
+        <p>عدد النواتج الممكنة: $$ 2 \times 6 = 12 $$</p>
+
+        <table style="width:100%; border-collapse: collapse; font-size: 10pt;">
+          <tr style="background-color:#e0e0e0;">
+            <th>وجه</th>
+            <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+          </tr>
+          <tr>
+            <th>كتابة</th>
+            <td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td>
+          </tr>
+        </table>
+
+        <ul>
+          <li>1) صف فضاء العينة الممكنة.</li>
+          <li>2) إذا كان الحدث: كتابة وعدد فردي، اكتب النواتج الممكنة.</li>
+          <li>3) إذا كان الحدث: وجه وعدد أكبر من 4، اكتب النواتج الممكنة.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>🎲 مساحة مخصصة لرسم شجرة الاحتمالات أو فضاء العينة:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 31 -->
+<div class="page-content">
+  <div class="page-number">(31)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>المتوسط الحسابي والمدى</h2>
+
+      <div class="concept">
+        <h3>تعريف:</h3>
+        <p>المتوسط الحسابي هو القيمة التي تمثل مركز مجموعة البيانات، ويحسب بجمع القيم ثم قسمتها على عددها.</p>
+        <p>المدى هو الفرق بين أكبر وأصغر قيمة في مجموعة البيانات.</p>
+      </div>
+
+      <div class="concept">
+        <h3>السؤال:</h3>
+        <p>أوجد المتوسط الحسابي لعدد من طلاب الصف التاسع في اختبار الرياضيات، وكانت نتائجهم كما يلي:</p>
+        <p>$$ \{6, 7, 9, 9, 10, 12, 14, 15\} $$</p>
+        <ul>
+          <li>1) احسب المتوسط الحسابي.</li>
+          <li>2) احسب المدى.</li>
+        </ul>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>معلومة:</strong>
+        <p>المتوسط الحسابي يعطي فكرة عن الأداء العام، بينما المدى يوضح مدى التفاوت بين القيم.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>📊 مساحة مخصصة للحسابات أو التمثيل البياني:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>ملاحظات إضافية</h2>
+
+      <div class="concept">
+        <h3>ملاحظة:</h3>
+        <p>المتوسط هو مقدار من القيم أكثر تكراراً أو أكثر قرباً لها.</p>
+        <p>✏️ فكر: هل المتوسط الحسابي يعكس أداء جميع الطلاب بدقة؟</p>
+        <div class="answer-space"></div>
+      </div>
+
+      <div class="note">
+        <strong>إبداع:</strong>
+        <p>الإبداع لا يتطلب عدداً، بل يتطلب فكرة واضحة وتنفيذاً منظماً.</p>
+      </div>
+
+      <div class="dashed-line-area">
+        <p>✏️ مساحة إضافية للتفكير أو التوضيح:</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- الصفحة 32 -->
+<div class="page-content">
+  <div class="page-number">(32)</div>
+  <div class="columns">
+    <div class="left-side">
+      <h2>صفحة فارغة للكتابة أو التمارين الإضافية</h2>
+      <div class="dashed-line-area" style="height: 600px;">
+        <p>✏️ استخدم هذه المساحة لتدوين ملاحظاتك أو حل تمارين إضافية:</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h2>مساحة حرة</h2>
+      <div class="dashed-line-area" style="height: 600px;">
+        <p>📘 يمكنك استخدام هذه الصفحة للرسم، التوضيح، أو كتابة أفكارك الخاصة.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
